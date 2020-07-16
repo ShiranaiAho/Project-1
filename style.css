@@ -1,0 +1,51 @@
+body {
+  background-color: rgb(253 , 251 , 251);
+  font-family: monospace;
+  font-size: 14px;
+  line-height: 20px;
+  margin: 10px;
+}
+
+#cabecalho {
+  position: fixed;
+  top: 0;
+  text-align: center;
+  background-color: rgb(15 , 163 , 107);
+  width: 99%;
+  color: white;
+  z-index: 1;
+}
+
+#minha_foto {
+  position: relative;
+  display: block;
+  width: 25%;
+  margin-top: 95px;
+  margin-right: auto;
+  margin-left: auto;
+  border: 3px solid rgb(140 , 236 , 84);
+}
+
+.lado-direito {
+  position: relative;
+  float: right;
+  background-color: rgb(213 , 247 , 185);
+  border: 5px dashed rgb(140 , 236 , 84);
+  width: 300px;
+  padding: 10px;
+  bottom: 830px;
+}
+
+footer {
+  clear: both;
+  border-top: 3px solid rgb(15 , 163 , 107);
+}
+
+.lado-esquerdo {
+  position: relative;
+  width: 70%;
+}
+
+.tabela {
+  text-align: center;
+}
